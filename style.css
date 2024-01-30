@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 47px 0 202px 42px;
+}
+
+
+.logo-img{
+    width: 595.178px;
+    height: 500.005px;
+    display: inline-block;
+    margin-left: 121px;
+}
+
+.link-header{
+    color: #17233D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: normal;
+    cursor: pointer;
+    
+}
+
+section{
+    display: inline-block;
+    margin-left: 84px;
+    margin-bottom: 600px;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    width: 582px;
+    margin-bottom: 47px;
+}
+
+p{
+    color: #4b505a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 493px;
+    margin-bottom: 55px;
+}
+
+.link-section{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.botaodiv{
+    display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .link-header{
+        display: none;
+    }
+
+    .logo-img{
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0 40px;
+    }
+
+    .link-section{
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+    img{
+        order: 2;
+    }
+
+    section{
+        order: 1;
+        margin-bottom: 0;
+        display: block;
+        margin-left: 42px;
+        margin-right: 42px;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+    
+    p{
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    button{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    
+    header{
+        display: flex;
+        margin: 30px;
+    }
+
+    .botaodiv{
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+    }
+    }
+
